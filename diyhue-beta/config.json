@@ -24,7 +24,7 @@
 "hassio_api": true,
 "host_network": true,
 "uart": true,
-"map": ["config:rw", "share:rw"],
+"map": ["config:/opt/hue-emulator/config/:rw", "share:rw"],
 "options": {
     "config_path": "/config/diyhue",
     "mac": "XX:XX:XX:XX:XX:XX",
