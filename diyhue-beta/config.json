@@ -1,6 +1,6 @@
 {
-"name": "diyHue Beta",
-"version": "1.5.0",
+"name": "diyHue - My",
+"version": "1.6.0",
 "slug": "diyhue-beta-branch",
 "description": "Philips Hue Bridge Emulator BETA",
 "webui": "http://[HOST]:[PORT:80]",
@@ -24,7 +24,7 @@
 "hassio_api": true,
 "host_network": true,
 "uart": true,
-"map": ["/opt/hue-emulator/config/:config:rw", "share:rw"],
+"map": ["config:rw", "share:rw"],
 "options": {
     "config_path": "/config/diyhue",
     "mac": "XX:XX:XX:XX:XX:XX",
